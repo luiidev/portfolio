@@ -73,9 +73,13 @@ a:hover {
 	transition: all 0.3s ease;
 }
 @media screen and (max-width: 992px) {
-.mobile-bg {
-	background-color:#74a3fa;
-}
+	.mobile-bg {
+		background-color:#74a3fa;
+	}
+
+	.profile img {
+		width: 60% !important;
+	}
 }
 
 .profile img {
